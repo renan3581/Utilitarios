@@ -1,0 +1,48 @@
+.menuMobile{
+    background-Color:white; 
+    width:100px; 
+    height:90px; 
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+.menuMobileIcon{
+    width: 80%;
+    height: 80%;
+    margin: 1px 5px;
+    
+}
+
+.menuMobileIcon:hover{
+   background-color:rgb(247, 247, 247) ;
+}
+
+.teste{
+    width:fit-content; 
+    height:fit-content; 
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    overflow:visible;
+    transition: 10000ms;
+    align-self: flex-start;
+    
+    
+}
+
+.teste > ul{
+    margin: 0px 30px;
+    padding: 1px;
+}
+
+.teste > ul > li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 22px;
+}
