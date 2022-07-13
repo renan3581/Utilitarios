@@ -1,8 +1,14 @@
 .Header {
-    display: flex;
-    flex-direction: row ; 
-    background-color: #000000;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap:10px ;
+    justify-content: space-between;
+    backdrop-filter: blur(20px);
+    background-color: rgb(255, 255, 255);
     width:100vw; 
-    height:20vh;
-    
+    height:15vh;
+    border-bottom: solid 1px black;
+    box-shadow: black 1px 0px 5px ;
+
 }
+
